@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(143, 190, 143);
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+a {
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+}
