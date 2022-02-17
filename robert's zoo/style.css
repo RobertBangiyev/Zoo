@@ -2,6 +2,24 @@ body {
     background-color: rgb(114, 167, 126);
 }
 
+button {
+    /* background-color: aqua;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px; */
+    background-color: rgb(47, 151, 255);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: royalblue;
+}
+
 h1 {
     color: rgb(0, 0, 139);
     padding-bottom: 0px;
@@ -9,6 +27,7 @@ h1 {
 }
 
 #info {
+    margin-top: 10px;
     color: rgb(143, 59, 59);
 }
 
