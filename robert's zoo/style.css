@@ -41,13 +41,18 @@ img {
 
 #cheetah:hover {
     content: url('animals/cheetah.jpg');
-    width: 400px;
+    width: 382px;
 }
 
-#first-animal {
+#all-animals {
     text-align: center;
 }
 
 #header {
     text-align: center;
+}
+
+#rhino:hover {
+    content: url('animals/rhino.jpg');
+    width: 300px;
 }
