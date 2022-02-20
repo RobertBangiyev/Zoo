@@ -43,3 +43,13 @@ img:hover {
     width: 200px;
     object-fit: cover;
 }
+
+.btn {
+    background-color: rgb(231, 125, 125);
+    color: black;
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px black;
+  }
+  
