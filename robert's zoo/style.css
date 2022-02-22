@@ -32,16 +32,25 @@ h3 {
 }
 
 img {
-    width: 300px;
+    height: 200px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cheetah:hover {
     content: url('animals/cheetah.jpg');
-    width: 382px;
 }
 
 #all-animals {
+    display: flex;
+    justify-content: space-around;
     text-align: center;
+}
+
+#all-animals div {
+    width: 450px;
 }
 
 #header {
@@ -50,15 +59,12 @@ img {
 
 #rhino:hover {
     content: url('animals/rhino.jpg');
-    width: 270px;
 }
 
 #eagle:hover {
     content: url('animals/eagle.jpg');
-    width: 410px;
 }
 
 #wolf:hover {
     content: url('animals/wolf.jpg');
-    width: 230px;
 }
