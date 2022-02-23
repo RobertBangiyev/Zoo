@@ -14,10 +14,14 @@ a {
 
 img {
     height: 300px;
+    transition: 0.4s;
+    border: 5px;
+    border-color: darkgreen;
+    border-style: solid;
 }
 
 img:hover {
-    border-radius: 80%;
+    border-radius: 50%;
 }
 
 .maindiv {
